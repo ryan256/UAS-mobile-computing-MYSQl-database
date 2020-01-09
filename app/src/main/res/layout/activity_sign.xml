@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wel_foreground"
+    tools:context=".Sign">
+
+
+    <TextView
+        android:id="@+id/judulSign"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginRight="-117dp"
+        android:text="SignUp"
+        android:textColor="@color/circle_menu_button_color_disabled"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="194dp"
+        android:textColor="#FF0000"
+        android:hint="User Name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="236dp"
+        android:textColor="#FF0000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="285dp"
+        android:textColor="#FF0000"
+        android:hint="Alamat"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="336dp"
+        android:hint="Daftar"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
